@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="maximum-scale=1.0; user-scalable=0;" /><meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>Day Check</title>
+</head>
+<body>
+  <script>
+    var today = new Date();
+    var day = today.getDay();
+
+    var dayList = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+
+    if(dayList[day] === "Sunday") {
+      window.location.href = 'day/rest.html';
+    }
+    else if(dayList[day] === "Monday") {
+      window.location.href = 'day/rest.html';
+    }
+    else if(dayList[day] === "Tuesday") {
+      window.location.href = 'day/thuesday.html';
+    }
+    else if(dayList[day] === "Wednesday") {
+      window.location.href = 'day/rest.html';
+    }
+    else if(dayList[day] === "Thursday") {
+      window.location.href = 'tday/hursday.html';
+    }
+    else if(dayList[day] === "Friday") {
+      window.location.href = 'day/friday.html';
+    }
+    else if(dayList[day] === "Saturday") {
+      window.location.href = 'day/rest.html';
+    }
+  </script>
+</body>
+</html>
